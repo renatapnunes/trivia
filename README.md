@@ -32,22 +32,40 @@ Caso a aplicação não inicie sozinha, acesse no seu browser `http://localhost:
 
 ## Aplicação
 
+_Login:_
+![Login](https://github.com/renatapnunes/trivia/blob/main/images-readme/Trivia_login.png)
+
 Para iniciar a partida, o usuário insere na página inicial seu email e o nome que deseja usar na partida. Caso o email escolhido esteja cadastrado no [_Gravatar_](https://br.gravatar.com/), a aplicação utilizará seus dados para obter por exemplo, o avatar do jogador.
+
+_Configurações:_
+![Settings](https://github.com/renatapnunes/trivia/blob/main/images-readme/Trivia_settings.png)
 
 Antes de iniciar a partida, o jogador tem a opção de escolher a categoria das perguntas, o nível de dificuldade e seu tipo, sendo as opções verdadeiro/falso ou múltipla escolha. Caso, o usuário não faça esta configuração, a aplicação selecionará modo aleatório para os três campos.
 
+_Tela de jogo:_
+![Game](https://github.com/renatapnunes/trivia/blob/main/images-readme/Trivia_question.png)
+
 Iniciada a partida, na tela de pergunta será exibido o nome e o avatar do usuário, sua pontuação até o momento na partida, o número de perguntas já feitas, a categoria da pergunta, um cronômetro decrescente e as opções de resposta.
+
+_Telas de feedback:_
+</br>
+<img alt="Feedback positivo" width="300px" height="350px" src="https://github.com/renatapnunes/trivia/blob/main/images-readme/Trivia_feedback_positive.png" />
+<img alt="Feedback negativo" width="330px" height="350px" src="https://github.com/renatapnunes/trivia/blob/main/images-readme/Trivia_feedback_negative.png" />
 
 Após respondidas às cinco questões, uma tela de feedback é exibida, mostrando a pontuação alcançada e o número de acertos. O usuário tem então a opção de ir para a tela de ranking verificar sua colocação ou iniciar uma nova partida.
 
+_Gif de uma partida completa:_
+![Gif aplicação](https://github.com/renatapnunes/trivia/blob/main/images-readme/Trivia.gif)
 
 ## Tecnologias
 
 Este projeto foi desenvolvido com ***React.js*** e ***Redux***.
+
 Para estiliza-lo, usou-se ***CSS 3*** e para garantir um código limpo, foi usado o ***ESLint***.
 
 ##### Api:
 A aplicação consome dados da seguinte Api REST:  [_Open Trivia Database_](https://opentdb.com/api_config.php)
+
 As URLs usadas para as requisições foram:
 ```
 https://opentdb.com/api_token.php?command=request
@@ -68,6 +86,7 @@ https://www.gravatar.com/avatar/${hash-gerada}
 
 ## Meus contatos
 Estou aberta a feedbacks sobre este projeto.
+
 Caso queria colaborar, fique a vontade para entrar em contato pelo meu:
 👉 [Linkedin](https://www.linkedin.com/in/renata-p-nunes/)
 
