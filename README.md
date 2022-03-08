@@ -4,6 +4,8 @@
 
 _Projeto em grupo proposto no curso de Desenvolvimento Web da_ [_Trybe_](https://www.betrybe.com/)
 
+Acesse: [_Trivia_](https://trivia-livid-iota.vercel.app/)
+
 Desenvolvedores:
  - [_Renata Nunes_](https://github.com/renatapnunes)
  - [_Marcos Siqueira_](https://github.com/MGSiqueira)
